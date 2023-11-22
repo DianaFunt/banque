@@ -26,7 +26,7 @@ class Titulaire
 
 
     // ajouter un compte depuis fichier Comptes.php dans tableau 'comptes'
-    public function addCompte(Comptes $compte){
+    public function addCompte(Compte $compte){
         $this->comptes []= $compte;
     }
 
